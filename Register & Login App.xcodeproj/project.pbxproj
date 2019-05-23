@@ -16,6 +16,7 @@
 		ED8C27C022968BF8003AE084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C27BF22968BF8003AE084 /* ViewController.swift */; };
 		ED8C27C322968BF8003AE084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8C27C122968BF8003AE084 /* Main.storyboard */; };
 		ED8C27C822968BF8003AE084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8C27C622968BF8003AE084 /* LaunchScreen.storyboard */; };
+		EDB076722296C96D0001668F /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB076712296C96D0001668F /* LoginStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		ED8C27C222968BF8003AE084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED8C27C722968BF8003AE084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED8C27C922968BF8003AE084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB076712296C96D0001668F /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				ED8C27A522968BA3003AE084 /* AppDelegate.swift */,
 				ED8C27A722968BA3003AE084 /* ViewController.swift */,
 				ED8C27A922968BA3003AE084 /* Main.storyboard */,
+				EDB076712296C96D0001668F /* LoginStoryboard.storyboard */,
 				ED8C27AE22968BA4003AE084 /* LaunchScreen.storyboard */,
 				ED8C27B122968BA4003AE084 /* Info.plist */,
 			);
@@ -185,6 +188,7 @@
 				ED8C27B022968BA4003AE084 /* LaunchScreen.storyboard in Resources */,
 				ED8C27AD22968BA4003AE084 /* Assets.xcassets in Resources */,
 				ED8C27AB22968BA3003AE084 /* Main.storyboard in Resources */,
+				EDB076722296C96D0001668F /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
