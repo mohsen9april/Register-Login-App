@@ -12,6 +12,10 @@
 		ED8C27AB22968BA3003AE084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8C27A922968BA3003AE084 /* Main.storyboard */; };
 		ED8C27AD22968BA4003AE084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8C27AC22968BA4003AE084 /* Assets.xcassets */; };
 		ED8C27B022968BA4003AE084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8C27AE22968BA4003AE084 /* LaunchScreen.storyboard */; };
+		ED8C27BE22968BF8003AE084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C27BD22968BF8003AE084 /* AppDelegate.swift */; };
+		ED8C27C022968BF8003AE084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C27BF22968BF8003AE084 /* ViewController.swift */; };
+		ED8C27C322968BF8003AE084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8C27C122968BF8003AE084 /* Main.storyboard */; };
+		ED8C27C822968BF8003AE084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8C27C622968BF8003AE084 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +26,23 @@
 		ED8C27AC22968BA4003AE084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED8C27AF22968BA4003AE084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED8C27B122968BA4003AE084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8C27BB22968BF7003AE084 /* Register & Login Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Register & Login Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8C27BD22968BF8003AE084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED8C27BF22968BF8003AE084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED8C27C222968BF8003AE084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED8C27C722968BF8003AE084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED8C27C922968BF8003AE084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ED8C279F22968BA3003AE084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8C27B822968BF7003AE084 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +55,9 @@
 		ED8C279922968BA3003AE084 = {
 			isa = PBXGroup;
 			children = (
+				ED8C27CD22968C12003AE084 /* Shared */,
 				ED8C27A422968BA3003AE084 /* Register & Login App */,
+				ED8C27BC22968BF8003AE084 /* Register & Login Admin */,
 				ED8C27A322968BA3003AE084 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				ED8C27A222968BA3003AE084 /* Register & Login App.app */,
+				ED8C27BB22968BF7003AE084 /* Register & Login Admin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,11 +77,30 @@
 				ED8C27A522968BA3003AE084 /* AppDelegate.swift */,
 				ED8C27A722968BA3003AE084 /* ViewController.swift */,
 				ED8C27A922968BA3003AE084 /* Main.storyboard */,
-				ED8C27AC22968BA4003AE084 /* Assets.xcassets */,
 				ED8C27AE22968BA4003AE084 /* LaunchScreen.storyboard */,
 				ED8C27B122968BA4003AE084 /* Info.plist */,
 			);
 			path = "Register & Login App";
+			sourceTree = "<group>";
+		};
+		ED8C27BC22968BF8003AE084 /* Register & Login Admin */ = {
+			isa = PBXGroup;
+			children = (
+				ED8C27BD22968BF8003AE084 /* AppDelegate.swift */,
+				ED8C27BF22968BF8003AE084 /* ViewController.swift */,
+				ED8C27C122968BF8003AE084 /* Main.storyboard */,
+				ED8C27C622968BF8003AE084 /* LaunchScreen.storyboard */,
+				ED8C27C922968BF8003AE084 /* Info.plist */,
+			);
+			path = "Register & Login Admin";
+			sourceTree = "<group>";
+		};
+		ED8C27CD22968C12003AE084 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ED8C27AC22968BA4003AE084 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +123,23 @@
 			productReference = ED8C27A222968BA3003AE084 /* Register & Login App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ED8C27BA22968BF7003AE084 /* Register & Login Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8C27CA22968BF8003AE084 /* Build configuration list for PBXNativeTarget "Register & Login Admin" */;
+			buildPhases = (
+				ED8C27B722968BF7003AE084 /* Sources */,
+				ED8C27B822968BF7003AE084 /* Frameworks */,
+				ED8C27B922968BF7003AE084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Register & Login Admin";
+			productName = "Register & Login Admin";
+			productReference = ED8C27BB22968BF7003AE084 /* Register & Login Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +151,9 @@
 				ORGANIZATIONNAME = "Mohsen Abdl";
 				TargetAttributes = {
 					ED8C27A122968BA3003AE084 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ED8C27BA22968BF7003AE084 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +172,7 @@
 			projectRoot = "";
 			targets = (
 				ED8C27A122968BA3003AE084 /* Register & Login App */,
+				ED8C27BA22968BF7003AE084 /* Register & Login Admin */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +188,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED8C27B922968BF7003AE084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8C27C822968BF8003AE084 /* LaunchScreen.storyboard in Resources */,
+				ED8C27C322968BF8003AE084 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +206,15 @@
 			files = (
 				ED8C27A822968BA3003AE084 /* ViewController.swift in Sources */,
 				ED8C27A622968BA3003AE084 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8C27B722968BF7003AE084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8C27C022968BF8003AE084 /* ViewController.swift in Sources */,
+				ED8C27BE22968BF8003AE084 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +233,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				ED8C27AF22968BA4003AE084 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ED8C27C122968BF8003AE084 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8C27C222968BF8003AE084 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED8C27C622968BF8003AE084 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8C27C722968BF8003AE084 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +406,40 @@
 			};
 			name = Release;
 		};
+		ED8C27CB22968BF8003AE084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Register & Login Admin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mohsen.Abdl.Register---Login-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8C27CC22968BF8003AE084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Register & Login Admin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mohsen.Abdl.Register---Login-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +457,15 @@
 			buildConfigurations = (
 				ED8C27B522968BA4003AE084 /* Debug */,
 				ED8C27B622968BA4003AE084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8C27CA22968BF8003AE084 /* Build configuration list for PBXNativeTarget "Register & Login Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8C27CB22968BF8003AE084 /* Debug */,
+				ED8C27CC22968BF8003AE084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
